@@ -1,0 +1,2 @@
+# KeyboardAndScrollView
+图片或视频View+输入框，使用ScrollView，防止图片或视频View被键盘顶起压缩
