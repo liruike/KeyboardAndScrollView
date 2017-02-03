@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView
+                android:layout_width="1080px"
+                android:layout_height="1920px"
+                android:src="@mipmap/default_start"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/relativeLayout3"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#66ffff00">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_margin="10dip">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户名：">
+            </TextView>
+            <EditText
+                android:id="@+id/editAccount"
+                android:layout_width="250dip"
+                android:layout_height="wrap_content"
+                android:text="张三">
+            </EditText>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
